@@ -1,0 +1,54 @@
+﻿{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/schemas/gpv2-exotique-neroflux.schema.json",
+  "title": "GPV2_EXOTIQUE_NEROFLUX Packet",
+  "type": "object",
+  "required": ["intention"],
+  "additionalProperties": true,
+  "properties": {
+    "intention": {
+      "type": "string",
+      "minLength": 1
+    },
+    "emotion": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1,
+      "default": 0
+    },
+    "creativity": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1,
+      "default": 0
+    },
+    "logic": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1,
+      "default": 0
+    },
+    "symbolic_density": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1,
+      "default": 0
+    },
+    "context_density": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1,
+      "default": 0
+    },
+    "urgency": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1,
+      "default": 0
+    },
+    "contradiction": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}
