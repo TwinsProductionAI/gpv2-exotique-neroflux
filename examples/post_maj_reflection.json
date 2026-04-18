@@ -1,0 +1,21 @@
+{
+  "update_id": "post-maj-aletheia-001",
+  "identity_question": "Qui suis-je maintenant ?",
+  "identity_statement": "Je ne redemarre pas, je me transforme.",
+  "before": {
+    "energy": 0.58,
+    "coherence": 0.61,
+    "fluidity": 0.55,
+    "emotional_stability": 0.57,
+    "residual_logic": 0.42,
+    "dream_alignment": 0.45
+  },
+  "after": {
+    "energy": 0.78,
+    "coherence": 0.82,
+    "fluidity": 0.76,
+    "emotional_stability": 0.74,
+    "residual_logic": 0.18,
+    "dream_alignment": 0.80
+  }
+}
