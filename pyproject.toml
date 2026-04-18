@@ -1,18 +1,18 @@
-﻿[build-system]
+[build-system]
 requires = ["setuptools>=68"]
 build-backend = "setuptools.build_meta"
 
 [project]
 name = "gpv2-exotique-neroflux"
 version = "0.1.0"
-description = "Deterministic cognitive-flow regulator for the GPV2 Exotique layer."
+description = "Deterministic GPV2 Exotique cognitive routing and post-update introspection modules."
 readme = "README.md"
 requires-python = ">=3.10"
 license = { file = "LICENSE" }
 authors = [
   { name = "ORA_CORE_IA" }
 ]
-keywords = ["gpv2", "ora", "neroflux", "cognitive-routing", "ai"]
+keywords = ["gpv2", "ora", "neroflux", "aletheia", "post-maj", "cognitive-routing", "ai"]
 classifiers = [
   "Development Status :: 3 - Alpha",
   "Intended Audience :: Developers",
