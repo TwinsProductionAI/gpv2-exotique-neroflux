@@ -16,7 +16,7 @@ Recommended public slug: `ora-core-neroflux`.
 
 ## Repository Role
 
-Read this after [ora-core-os](https://github.com/TwinsProductionAI/Coeur_ORA_GrenaPrompt_repo) and [ora-core-rag](https://github.com/TwinsProductionAI/ora-core-rag) when you want the deterministic flow-control layer used for routing pressure, fanout regulation, and post-update reflection.
+Read this after [ora-core-os](https://github.com/TwinsProductionAI/ora-core-os) and [ora-core-rag](https://github.com/TwinsProductionAI/ora-core-rag) when you want the deterministic flow-control layer used for routing pressure, fanout regulation, and post-update reflection.
 
 | Public order | Repository role |
 | ---: | --- |
@@ -123,7 +123,7 @@ python -m unittest discover -s tests
 ## Repository Layout
 
 ```text
-gpv2-exotique-neroflux/
+ora-core-neroflux/
 |- README.md
 |- MODULE.md
 |- LICENSE
@@ -150,7 +150,7 @@ gpv2-exotique-neroflux/
 
 | Order | Repository | Role |
 | ---: | --- | --- |
-| 1 | [ora-core-os](https://github.com/TwinsProductionAI/Coeur_ORA_GrenaPrompt_repo) | Architecture and canonical module order. |
+| 1 | [ora-core-os](https://github.com/TwinsProductionAI/ora-core-os) | Architecture and canonical module order. |
 | 2 | [ora-core-runtime](https://github.com/TwinsProductionAI/ora-core-runtime) | Runnable runtime and tests. |
 | 3 | [ora-core-rag](https://github.com/TwinsProductionAI/ora-core-rag) | Retrieval layer and RAG Governor. |
 | 6 | `ora-core-neroflux` | Cognitive flow-control module. |
