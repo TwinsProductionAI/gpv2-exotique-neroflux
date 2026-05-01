@@ -22,6 +22,11 @@ Read this after [ora-core-os](https://github.com/TwinsProductionAI/ora-core-os) 
 | ---: | --- |
 | 6 | Cognitive flow-control module: Neroflux routing and Aletheia reflection. |
 
+## White Paper
+
+- [ORA Core Neroflux White Paper](docs/ORA_CORE_NEROFLUX_WhitePaper.md)  
+  Technical overview of the routing-control role, cadence selection, fanout limits, integration boundary, and roadmap.
+
 ## ORA Vocabulary
 
 - `DreamCore` explores imagination, dream logic, and creative drift.
@@ -129,6 +134,7 @@ ora-core-neroflux/
 |- LICENSE
 |- pyproject.toml
 |- docs/
+|  |- ORA_CORE_NEROFLUX_WhitePaper.md
 |  `- GPV2_EXOTIQUE_ALETHEIA.md
 |- schemas/
 |  |- aletheia.schema.json
